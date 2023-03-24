@@ -1,3 +1,9 @@
 :root {
-    --underline-color: red;
+    --main-color: #0000002B;
+    --second-color: white;
+    --text-color: black;
+    --details-color: red;
+
+    --main-font: 'Fira Sans', sans-serif;
+    --second-font: 'Poppins', sans-serif;
 }
