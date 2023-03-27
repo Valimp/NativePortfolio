@@ -43,17 +43,24 @@
 
 .burger-menu-bg {
     display: none;
-    width: 2rem;
-    height: 2rem;
+    height: 1.5rem;
     border: none;
     color: inherit;
-    background: red;
+    background: transparent;
 }
 
 @media screen and (max-width: 920px) {
 
+    .nav-links {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .burger-menu-bg {
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position: absolute;
         right: 1rem;
         align-self: center;
@@ -72,7 +79,7 @@
         height: 3px;
         position: relative;
         border-radius: 3px;
-        background-color: blue;
+        background-color: black;
         transition: all .5s ease-in-out;
     }
 
@@ -85,6 +92,7 @@
 
     .burger-bar::before {
         transform: translateY(-8px);
+        width: 1.5rem;
     }
 
     .burger-bar::after {
