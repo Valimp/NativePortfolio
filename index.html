@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/globals.css">
     <link rel="stylesheet" href="./styles/header.css">
+    <!-- SCRIPTS -->
+    <script src="./scripts/buttons.js" defer></script>
 </head>
 <body>
     <!-- RESPONSIVE HEADER / NAV MENU -->
     <header class="header-container">
         <div class="responsive-nav">
-            <nav>
+            <nav id="nav-links">
                 <ul class="nav-links">
                     <li class="nav-link">
                         <a class="link-button" href="#">Accueil</a>
@@ -29,10 +31,10 @@
                         <a class="link-button" href="#">Contacts</a>
                     </li>
                 </ul>
+                <button id="burger-button" class="burger-menu-bg">
+                    <span class="burger-bar"></span>
+                </button>
             </nav>
-            <button class="burger-menu-bg">
-                <span class="burger-bar"></span>
-            </button>
         </div>
     </header>
 </body>
