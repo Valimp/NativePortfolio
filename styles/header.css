@@ -60,15 +60,19 @@
         justify-content: center;
         align-items: center;
         position: fixed;
-        right: -100vw;
+        transform: translateX(-200vw);
         bottom: 0;
+        width: 100vw;
         height: 100vh;
-        visibility: hidden;
+        visibility: visible;
         z-index: 10;
+        margin: 0;
+        background-color: var(--main-color);
+        transition: transform .5s ease-in-out;
     }
 
     .show-links .nav-links {
-        right: 0;
+        transform: translateX(-50vw);
         width: 100vw;
         visibility: visible;
     }
@@ -84,9 +88,10 @@
         position: absolute;
         right: 1rem;
         top: 1rem;
+        width: 2.5rem;
         align-self: center;
         z-index: 10;
-        background-color: red;
+        background-color: transparent;
     }
 
     .burger-menu-bg:hover {
@@ -139,5 +144,6 @@
 
     .show-links .burger-menu-bg {
         position: fixed;
+        width: 2.5rem;
     }
 }

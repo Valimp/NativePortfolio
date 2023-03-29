@@ -4,7 +4,6 @@ let burgerState = false
 
 const handleBurgerState = () => {
     burgerState = !burgerState
-    console.log(burgerState);
 }
 
 burger.addEventListener('click', handleBurgerState)
