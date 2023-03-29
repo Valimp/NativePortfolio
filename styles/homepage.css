@@ -1,0 +1,18 @@
+.home-page {
+    background-color: var(--indigo-dye);
+    height: 80vh;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    font-family: var(--main-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: calc(2.5vw + 2rem);
+}
+
+.container h2 {
+    font-size: calc(1vw + 1.5rem);
+    color: var(--light-blue);
+}

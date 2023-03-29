@@ -1,8 +1,9 @@
 :root {
-    --main-color: #0000002b;
-    --second-color: white;
-    --text-color: black;
-    --details-color: red;
+    --oxford-blue: #001B48;
+    --indigo-dye: #02457A;
+    --blue: #018ABE;
+    --light-blue: #97CADB;
+    --azure: #D6E8EE;
 
     --main-font: 'Fira Sans', sans-serif;
     --second-font: 'Poppins', sans-serif;
