@@ -1,0 +1,7 @@
+.section-container {
+    padding: 10vh 10vw;
+    background-color: red;
+}
+.section-container h3 {
+    font-size: 5vw;
+}

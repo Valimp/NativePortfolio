@@ -1,6 +1,6 @@
 .header-container {
     background-color: var(--oxford-blue);
-    position: absolute;
+    position: fixed;
     z-index: 10;
     width: 100vw;
 }
@@ -88,7 +88,7 @@
 
     .burger-menu-bg {
         display: block;
-        position: absolute;
+        position: fixed;
         right: 1rem;
         top: 1rem;
         width: 2.5rem;
