@@ -20,6 +20,55 @@
     animation: translateright 1.2s ease-in-out;
 }
 
+.circle {
+    background-color: var(--blue);
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+}
+#circle1 {
+    width: 100px;
+    height: 100px;
+    top: 10vh;
+    left: 3vw;
+    animation: translateleft .65s ease-in-out;
+}
+#circle2 {
+    width: 250px;
+    height: 250px;
+    top: 10vh;
+    left: 3vw;
+    animation: translateleft .75s ease-in-out;
+}
+#circle3 {
+    width: 75px;
+    height: 75px;
+    top: 55vh;
+    left: 60vw;
+    animation: translateright .7s ease-in-out;
+}
+#circle4 {
+    width: 120px;
+    height: 120px;
+    top: 5vh;
+    left: 90vw;
+    animation: translateright .6s ease-in-out;
+}
+#circle5 {
+    width: 50px;
+    height: 50px;
+    top: 20vh;
+    left: 40vw;
+    animation: translateright .6s ease-in-out;
+}
+#circle6 {
+    width: 140px;
+    height: 140px;
+    top: 65vh;
+    left: 30vw;
+    animation: translateleft .6s ease-in-out;
+}
+
 @keyframes translateleft {
     from { 
         transform: translateX(-50vw);
