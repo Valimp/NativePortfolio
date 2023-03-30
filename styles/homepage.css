@@ -21,10 +21,22 @@
 }
 
 @keyframes translateleft {
-    from { transform: translateX(-50vw); }
-    to { transform: translateX(0); }
+    from { 
+        transform: translateX(-50vw);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 @keyframes translateright {
-    from { transform: translateX(50vw); }
-    to { transform: translateX(0); }
+    from { 
+        transform: translateX(50vw);
+        opacity: 0;
+    }
+    to { 
+        transform: translateX(0); 
+        opacity: 1;
+    }
 }
