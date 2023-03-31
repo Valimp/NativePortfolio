@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins&display=swap');
 @import url('./vars.css');
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: var(--second-font);
     color: var(--azure);
     background-color: var(--azure);
+    cursor: default;
 }
