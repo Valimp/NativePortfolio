@@ -9,8 +9,9 @@
 .section-container h3 {
     font-size: calc(1rem + 3vw);
     position: relative;
+    left: 10px;
     width: fit-content;
-    margin-bottom: 4rem;
+    margin-bottom: 7rem;
 }
 
 .section-container h3::after {
@@ -33,4 +34,52 @@
 
 .section-container article {
     font-size: calc(.8rem + 1vw);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-container {
+    max-width: 50rem;
+    margin: 3rem;
+    padding: 1rem;
+}
+
+.text-container p {
+    line-height: 3rem;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--oxford-blue);
+    min-width: 20rem;
+    min-height: 20rem;
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem;
+    border-radius: 37% 63% 70% 30% / 51% 64% 36% 49% ;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    background-image: url("../portrait-min.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 37% 63% 70% 30% / 51% 64% 36% 49%  ;
+}
+
+@media screen and (max-width: 1200px) {
+    .section-container article {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .text-container p {
+        text-align: justify;
+    }
 }
