@@ -9,12 +9,12 @@
 }
 
 .container h1 {
-    font-size: calc(2.5vw + 2rem);
+    font-size: calc(5vw + 2rem);
     animation: translateleft 1s ease-in-out;
 }
 
 .container h2 {
-    font-size: calc(1vw + 1.5rem);
+    font-size: calc(2vw + 1.5rem);
     font-family: var(--second-font);
     color: var(--light-blue);
     animation: translateright 1.2s ease-in-out;
@@ -87,5 +87,14 @@
     to { 
         transform: translateX(0); 
         opacity: 1;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .container h1 {
+        font-size: calc(2.5vw + 2rem);
+    }
+    .container h2 {
+        font-size: calc(1vw + 1.5rem);
     }
 }
