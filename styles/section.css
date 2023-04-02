@@ -83,3 +83,38 @@
         text-align: justify;
     }
 }
+
+/* Skills sections */
+
+#skills article {
+    display: flex;
+    flex-direction: column;
+}
+
+.badge-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 2rem;
+    margin-bottom: 3rem;
+}
+
+.badge {
+    width: calc(3rem + 2vw);
+    height: calc(3rem + 2vw);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#reactjs {
+    background-image: url('../reactjs.svg');
+}
+#mongodb {
+    background-image: url('../mongodb.svg');
+}
+#nodejs {
+    background-image: url('../nodejs.svg');
+}
+#expressjs {
+    background-image: url('../expressjs.svg');
+}
